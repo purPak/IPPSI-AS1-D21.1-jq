@@ -32,11 +32,12 @@ if( file_exists($cPath) ){
 			$cObject->$a();
 		}else{
 			die("La methode ".$a." n'existe pas");
-		}
-		
+		}	
 	}else{
 		die("La class controller ".$c." n'existe pas");
 	}
 }else{
 	die("Le fichier controller ".$c." n'existe pas");
+
+	
 }

@@ -13,8 +13,6 @@ class UsersController{
 	
 		$v = new View("addUser", "front");
 		$v->assign("form", $form);
-		
-		
 	}
 
 	public function saveAction(){
